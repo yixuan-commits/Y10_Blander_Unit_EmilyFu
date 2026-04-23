@@ -1,0 +1,36 @@
+# Blender
+# Ignore Blender's auto-save and backup files:
+*.blend1
+*.blend2
+*.blend3
+*.blend[0-9]
+*.autosave.blend
+
+# Ignore render output, cache files, and other generated data:
+/renders/
+/cache/
+/tmp/
+
+# Python temporary files (for scripts/addons):
+__pycache__/
+*.pyc
+*.pyd
+
+# Operating System Files
+# macOS
+.DS_Store
+.Spotlight-V100
+.Trashes
+._*
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*~ 
+
+# Project-specific configuration files that shouldn't be shared:
+# e.g., local user preferences
+# /config/*.blend
+# /config/userpref.blend
